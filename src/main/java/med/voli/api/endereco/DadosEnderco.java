@@ -10,7 +10,7 @@ public record DadosEnderco(
         String bairro,
 
        @NotBlank
-       @Pattern(regexp = "\\{8}")
+       @Pattern(regexp = "\\d{8}")
        String cep,
        @NotBlank
        String cidade,
